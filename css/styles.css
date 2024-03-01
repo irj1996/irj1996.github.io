@@ -1,0 +1,132 @@
+
+body {
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(110,110,110,1) 100%);
+    background-color: rgb(10, 10, 10);
+    font-family: cursive;
+}
+
+
+header {color:rgb(0, 255, 0);
+    font-size: 60px;
+    font-style: italic;
+    padding-left: 5px;
+
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 150px;
+        border: 10px solid rgb(0, 190, 0); 
+        background: linear-gradient(180deg, rgba(110,110,110,1) 0%, rgba(0,0,0,1) 100%);
+        
+
+
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(160, 255, 160);
+    float: right;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid rgb(0, 200, 0);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+h1 {color: rgb(40, 255, 40);
+    padding: 5px;
+    border-style: dashed;
+    border-color:rgb(43, 255, 43) ;
+    border-radius: 15px;
+    
+
+}
+
+
+h2 {color:rgb(80, 254, 80);
+    padding: 5px;
+    border-style: dashed;
+    border-color:rgb(43, 255, 43) ;
+    border-radius: 15px;
+
+}
+
+
+h3 {color:rgb(120, 255, 120);
+    padding: 5px;
+     border-style: dashed;
+    border-color:rgb(43, 255, 43) ;
+    border-radius: 15px;
+
+}
+
+h4 {
+    color:rgb(160, 255, 160);
+    padding: 5px;
+     border-style: dashed;
+    border-color:rgb(43, 255, 43) ;
+    border-radius: 15px;
+
+
+}
+
+h5 {
+    color:rgb(200, 255, 200);
+    padding: 5px;
+     border-style: dashed;
+    border-color:rgb(43, 255, 43) ;
+    border-radius: 15px;
+
+
+}
+
+p {color:antiquewhite;
+padding: 10px;
+font-size: 17px;
+   
+
+}
+
+ul {
+    font-size: 20px;
+}
+
+a:link {    color: rgb(0, 255, 0);
+
+  }
+
+  a:visited {
+    color: rgb(255, 0, 0);
+
+  }
+
+
+ul {color: antiquewhite;
+
+}
+
+section {
+
+
+
+}
+
+footer {
+font-size: 25px;
+padding-left: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 5px solid rgb(0, 190, 0); 
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(110,110,110,1) 100%);
+}
